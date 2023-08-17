@@ -1,5 +1,5 @@
-apt install python-pip
-pip3 install multidict
-pip3 install typing_extensions
-pip3 install web3
-python3 2.py
+apt install python-pip<br>
+pip3 install multidict<br>
+pip3 install typing_extensions<br>
+pip3 install web3<br>
+python3 2.py<br>
