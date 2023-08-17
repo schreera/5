@@ -3,7 +3,7 @@ mv 1/2.py /<br>
 mv 1/private_keys.txt /<br>
 chmod 777 2.py<br>
 <br>
-apt install python-pip<br>
+apt install python-pip -y<br>
 pip3 install multidict<br>
 pip3 install typing_extensions<br>
 pip3 install attr<br>
