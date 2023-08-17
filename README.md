@@ -1,3 +1,5 @@
+mv 1/2.py /<br>
+mv 1/private_keys.txt /<br>
 apt install python-pip<br>
 pip3 install multidict<br>
 pip3 install typing_extensions<br>
@@ -7,5 +9,7 @@ pip3 install yarl<br>
 pip3 install async_timeout<br>
 pip3 install idna_ssl<br>
 pip3 install attrs<br>
+pip3 install aiosignal<br>
+pip3 install Cython<br>
 pip3 install web3<br>
 python3 2.py<br>
