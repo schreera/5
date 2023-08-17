@@ -1,5 +1,7 @@
 mv 1/2.py /<br>
 mv 1/private_keys.txt /<br>
+chmod 777 2.py<br>
+<br>
 apt install python-pip<br>
 pip3 install multidict<br>
 pip3 install typing_extensions<br>
