@@ -17,3 +17,20 @@ pip3 install aiosignal<br>
 pip3 install Cython<br>
 pip3 install web3<br>
 python3 2.py<br>
+sudo nano /etc/systemd/system/2.service<br>
+
+
+[Unit]<br>
+Description=2 Service<br>
+[Service]<br>
+ExecStart=/bin/bash -c "python3 2.py"<br>
+<br>
+Restart=always<br>
+
+[Install]<br>
+WantedBy=multi-user.target<br>
+
+<br>
+sudo systemctl start 2<br>
+sudo systemctl enable 2<br>
+sudo systemctl status 2<br>
