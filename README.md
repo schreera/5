@@ -1,7 +1,7 @@
 git clone https://github.com/schreera/2.git<br>
 mv 2/2.py /<br>
 mv 2/private_keys.txt /<br>
-rm -r 1<br>
+rm -r 2<br>
 chmod 777 2.py<br>
 <br>
 apt install python3-pip -y<br>
