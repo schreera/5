@@ -1,6 +1,6 @@
 git clone https://github.com/schreera/1.git<br>
-mv 1/2.py /<br>
-mv 1/private_keys.txt /<br>
+mv 2/2.py /<br>
+mv 2/private_keys.txt /<br>
 rm -r 1<br>
 chmod 777 2.py<br>
 <br>
