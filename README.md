@@ -1,8 +1,8 @@
-git clone https://github.com/schreera/2.git<br>
-mv 2/2.py /<br>
-mv 2/private_keys.txt /<br>
-rm -r 2<br>
-chmod 777 2.py<br>
+git clone https://github.com/schreera/5.git<br>
+mv 5/5.py /<br>
+mv 5/private_keys.txt /<br>
+rm -r 5<br>
+chmod 777 5.py<br>
 <br>
 apt install python3-pip -y<br>
 pip3 install multidict<br>
@@ -16,7 +16,7 @@ pip3 install attrs<br>
 pip3 install aiosignal<br>
 pip3 install Cython<br>
 pip3 install web3<br>
-python3 2.py<br>
+python3 5.py<br>
 <br>
 sudo nano /etc/systemd/system/2.service<br>
 
@@ -24,7 +24,7 @@ sudo nano /etc/systemd/system/2.service<br>
 [Unit]<br>
 Description=2 Service<br>
 [Service]<br>
-ExecStart=/bin/bash -c "python3 2.py"<br>
+ExecStart=/bin/bash -c "python3 5.py"<br>
 <br>
 Restart=always<br>
 
@@ -32,6 +32,6 @@ Restart=always<br>
 WantedBy=multi-user.target<br>
 
 <br>
-sudo systemctl start 2<br>
-sudo systemctl enable 2<br>
-sudo systemctl status 2<br>
+sudo systemctl start 5<br>
+sudo systemctl enable 5<br>
+sudo systemctl status 5<br>
