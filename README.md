@@ -32,6 +32,6 @@ Restart=always<br>
 WantedBy=multi-user.target<br>
 
 <br>
-sudo systemctl start 5<br>
-sudo systemctl enable 5<br>
-sudo systemctl status 5<br>
+sudo systemctl start 5.service<br>
+sudo systemctl enable 5.service<br>
+sudo systemctl status 5.service<br>
