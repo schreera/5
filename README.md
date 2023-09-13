@@ -18,11 +18,11 @@ pip3 install Cython<br>
 pip3 install web3<br>
 python3 5.py<br>
 <br>
-sudo nano /etc/systemd/system/2.service<br>
+sudo nano /etc/systemd/system/5.service<br>
 
 
 [Unit]<br>
-Description=2 Service<br>
+Description=5 Service<br>
 [Service]<br>
 ExecStart=/bin/bash -c "python3 5.py"<br>
 <br>
